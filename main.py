@@ -144,7 +144,7 @@ while carryOn:
     for brick in brick_collision_list:
       effect_success.play() 
       ball.bounce()
-      score += 100
+      score += 10
       brick.kill()
       if len(all_bricks)==0:
            # Display Level Complete Message for 3 seconds
